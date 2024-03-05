@@ -1,0 +1,155 @@
+.bgcard{
+    background-color: rgb(30, 29, 29);
+    border: none;
+  }
+
+
+  #Home{
+    padding-top: 130px;
+  }
+  #about{
+    padding-top: 110px;
+  }
+  #skills{
+    padding-top: 150px;
+  }
+  #projects{
+    padding-top: 150px;
+  }
+  #contact{
+    padding-top: 150px;
+  }
+  
+  .bttext{
+  font-size: small;
+  justify-content: center;
+}
+
+
+
+.workcard{
+  width: 30rem;
+  background-color: rgb(30, 29, 29);
+  border: none;
+
+
+  }
+
+  .cardcontainer{
+   flex-direction: row;
+   margin-left: 5px;
+    }
+    .workcard{
+      margin-left: 20px;
+      }   
+     
+
+
+      .form-control{
+        border: none;
+        width: 300px;
+        background-color: rgb(30, 29, 29) ;
+        box-shadow: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0px;
+        outline: none;
+      }
+      .form-control:focus{
+        border: none;
+        width: 300px;
+        background-color: rgb(30, 29, 29) ;
+        box-shadow: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0px;
+        outline: none;
+       }
+       .messagebtn{
+        border-bottom: 3px solid #ced4da;
+        border-radius: 0px;
+        margin-left: 80px;
+        
+       }
+       .messagebtn:focus{
+        border: none;
+        border-bottom: 3px solid #ced4da;
+        border-radius: 0px;
+        margin-left: 80px;
+        
+        background-color: rgb(30, 29, 29) ;
+        box-shadow: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0px;
+        outline: none;
+        
+       }
+    .parentform{
+      width: 60%;
+      margin-left: auto;
+      
+}
+.headtext{
+  margin-top: 6rem !important;
+}
+
+
+.horizontalline{
+  background-color: rgb(255, 253, 253);
+  width: 100%;
+  height: 5px !important;
+  margin-top: 500px !important;
+}
+.lastline{
+  margin-bottom: 130px !important;
+}
+.card{
+  box-shadow: 5px 5px 10px 1px  #00d0ff !important;
+}
+
+
+.ht{
+  box-shadow: var(--darkreader-bg--shadow);
+  border: 3px solid var(--darkreader-border--clr-primary);
+}
+.hover:hover{
+  /* color: #FCC000; */
+  color: #00d0ff !important;
+}
+
+.nav-link.selected {
+  /* color: #FCC000; */
+  color: #00d0ff  !important;     /* Change text color for selected page */
+}
+@media only screen and (max-width: 600px) {
+  .headtext{
+    margin-left: 30px !important;
+  }
+  .reactimage{
+    margin-right: 500px !important;
+  }
+  .about{
+    margin-top: 30px;
+  }
+  .secondrow{
+    margin-left: 80px !important;
+  }
+  .projectrow{
+    margin-left: 40px !important;
+  }
+  .aboutrow{
+    margin-top: 0px !important;
+    margin-left: 70px !important;
+  }
+  #skills{
+    
+    padding-top: 30px !important;
+  }
+  #contact{
+    padding-top: 120px !important;
+   margin-top: 30px !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+.thirdrow{
+  margin-left: 140px !important;
+}
+}
